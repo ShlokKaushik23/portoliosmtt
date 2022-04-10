@@ -1,0 +1,609 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
+/* ----------- iPad 1, 2, Mini and Air ----------- */
+
+/* Portrait and Landscape */
+
+.work_card_container{
+  display: none;
+}
+@media only screen 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+.work_card_container{
+height: 100%;
+display: block;
+}
+
+.card_box_container{
+ display: -webkit-box;
+ display: -ms-flexbox;
+ display: flex;
+ -webkit-box-pack: center;
+     -ms-flex-pack: center;
+         justify-content: center;
+ -webkit-box-align: center;
+     -ms-flex-align: center;
+         align-items: center;
+ -webkit-box-orient: vertical;
+ -webkit-box-direction: normal;
+     -ms-flex-direction: column;
+         flex-direction: column;
+ position: relative;
+ margin-top: calc(200px + 48px);
+ margin-left: 340px;
+}
+
+.card_box_container .card_inner{
+        height: calc(600px + 48px + 48px + 48px );
+        width: 600px;
+        position: relative;
+        margin-bottom: 100px;
+        background-color: #f7f7f7;
+}
+.card_box_container .card_inner .card_front .card_img{
+        height: 600px;
+        width: 600px;
+        display: block;
+        top: 0;
+        left: 0;
+}
+.card_box_container .card_inner .card_front .card_img img{
+  width: 100%;
+  height: 100%;
+}
+.card_box_container .card_inner .card_front .card_title{
+   background-color: #f7f7f7;
+   height: calc(48px + 48px + 48px);
+   display: -webkit-box;
+   display: -ms-flexbox;
+   color:#DFDFDF;
+   display: flex;
+   -webkit-box-pack: center;
+       -ms-flex-pack: center;
+           justify-content: center;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+           -webkit-box-orient: vertical;
+           -webkit-box-direction: normal;
+               -ms-flex-direction: column;
+                   flex-direction: column;
+   font-size: 2rem;
+   
+}
+.card_box_container .card_inner .card_front .card_title p{
+  margin: 0;
+  padding: 0;
+}
+
+.card_box_container .card_inner .card_front .card_title .invert{
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  color: #121212;
+  
+}
+.card_box_container .card_inner .card_front .card_title .real{
+  color: #DFDFDF;
+}
+
+}
+
+/* Portrait */
+@media only screen 
+  and (max-device-width: 768px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+
+        .work_card_container{
+                height: 100%;
+                }
+                
+                .card_box_container{
+                 display: -webkit-box;
+                 display: -ms-flexbox;
+                 display: flex;
+                 -webkit-box-pack: center;
+                     -ms-flex-pack: center;
+                         justify-content: center;
+                 -webkit-box-align: center;
+                     -ms-flex-align: center;
+                         align-items: center;
+                 -webkit-box-orient: vertical;
+                 -webkit-box-direction: normal;
+                     -ms-flex-direction: column;
+                         flex-direction: column;
+                 position: relative;
+                 margin-top: calc(200px + 48px);
+                 margin-left: 290px;
+                }
+                
+                .card_box_container .card_inner{
+                        height: calc(400px + 48px + 48px + 48px );
+                        width: 400px;
+                        position: relative;
+                        margin-bottom: 100px;
+                        background-color: #f7f7f7;
+                }
+                .card_box_container .card_inner .card_front .card_img{
+                        height: 400px;
+                        width: 400px;
+                        display: block;
+                        top: 0;
+                        left: 0;
+                }
+                .card_box_container .card_inner .card_front .card_img img{
+                  width: 100%;
+                  height: 100%;
+                }
+                .card_box_container .card_inner .card_front .card_title{
+                   background-color: #f7f7f7;
+                   color: #DFDFDF;
+                   height: calc(48px + 48px + 48px);
+                   display: -webkit-box;
+                   display: -ms-flexbox;
+                   display: flex;
+                   -webkit-box-pack: center;
+                       -ms-flex-pack: center;
+                           justify-content: center;
+                   -webkit-box-align: center;
+                       -ms-flex-align: center;
+                           align-items: center;
+                           -webkit-box-orient: vertical;
+                           -webkit-box-direction: normal;
+                               -ms-flex-direction: column;
+                                   flex-direction: column;
+                   font-size: 2rem;
+                  
+                }
+                
+                .card_box_container .card_inner .card_front .card_title .invert{
+                  -webkit-transform: rotateX(180deg);
+                  transform: rotateX(180deg);
+                  color: #121212;
+                }
+                
+                .card_box_container .card_inner .card_front .card_title .real{
+                  color: #DFDFDF;
+                }
+
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+}
+
+/* ----------- iPad 3, 4 and Pro 9.7" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPad Pro 10.001" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 1112px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 834px) 
+  and (max-device-width: 834px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1112px) 
+  and (max-device-width: 1112px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106*/
+@media only screen 
+  and (min-device-width: 1366px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+}
+
+/* =========== MOBILE DEVICES ============= */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 480px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+
+
+        .work_card_container{
+                height: 100%;
+                }
+                
+                .card_box_container{
+                 display: -webkit-box;
+                 display: -ms-flexbox;
+                 display: flex;
+                 -webkit-box-pack: center;
+                     -ms-flex-pack: center;
+                         justify-content: center;
+                 -webkit-box-align: center;
+                     -ms-flex-align: center;
+                         align-items: center;
+                 -webkit-box-orient: vertical;
+                 -webkit-box-direction: normal;
+                     -ms-flex-direction: column;
+                         flex-direction: column;
+                 position: relative;
+                 margin-top: calc(200px + 48px);
+                 margin-left: 140px;
+                }
+                
+                .card_box_container .card_inner{
+                        height: calc(240px + 48px + 48px );
+                        width: 240px;
+                        position: relative;
+                        margin-bottom: 100px;
+                        background-color: #f7f7f7;
+                }
+                .card_box_container .card_inner .card_front .card_img{
+                        height: 240px;
+                        width: 240px;
+                        display: block;
+                        top: 0;
+                        left: 0;
+                }
+                .card_box_container .card_inner .card_front .card_img img{
+                  width: 100%;
+                  height: 100%;
+                }
+                .card_box_container .card_inner .card_front .card_title{
+                   background-color: #f7f7f7;
+                   color: #dfdfdf;
+                   height: calc(48px + 48px);
+                   display: -webkit-box;
+                   display: -ms-flexbox;
+                   display: flex;
+                   -webkit-box-pack: center;
+                       -ms-flex-pack: center;
+                           justify-content: center;
+                   -webkit-box-align: center;
+                       -ms-flex-align: center;
+                           align-items: center;
+                   font-size: 1.5rem;
+                   -webkit-box-orient: vertical;
+                   -webkit-box-direction: normal;
+                       -ms-flex-direction: column;
+                           flex-direction: column;
+                 
+                }
+                
+                  
+                .card_box_container .card_inner .card_front .card_title .invert{
+                  -webkit-transform: rotateX(180deg);
+                  transform: rotateX(180deg);
+                  color: #121212;
+                }
+                 
+                .card_box_container .card_inner .card_front .card_title .real{
+                  color: #DFDFDF;
+                }
+                
+                
+
+}
+
+
+
+  
+@media only screen 
+and (max-device-width: 390px) {
+
+      .work_card_container{
+              height: 100%;
+              }
+              
+              .card_box_container{
+               display: -webkit-box;
+               display: -ms-flexbox;
+               display: flex;
+               -webkit-box-pack: center;
+                   -ms-flex-pack: center;
+                       justify-content: center;
+               -webkit-box-align: center;
+                   -ms-flex-align: center;
+                       align-items: center;
+               -webkit-box-orient: vertical;
+               -webkit-box-direction: normal;
+                   -ms-flex-direction: column;
+                       flex-direction: column;
+               position: relative;
+               margin-top: calc(150px );
+               margin-left: 140px;
+              }
+              
+              .card_box_container .card_inner{
+                      height: calc(195px + 48px + 24px );
+                      width: 195px;
+                      position: relative;
+                      margin-bottom: 48px;
+                      background-color: #f7f7f7;
+              }
+              .card_box_container .card_inner .card_front .card_img{
+                      height: 195px;
+                      width: 195px;
+                      display: block;
+                      top: 0;
+                      left: 0;
+              }
+              .card_box_container .card_inner .card_front .card_img img{
+                width: 100%;
+                height: 100%;
+              }
+              .card_box_container .card_inner .card_front .card_title{
+                 background-color: #f7f7f7;
+                 color: #DFDFDF;
+                 height: calc(48px + 24px);
+                 display: -webkit-box;
+                 display: -ms-flexbox;
+                 display: flex;
+                 -webkit-box-pack: center;
+                     -ms-flex-pack: center;
+                         justify-content: center;
+                 -webkit-box-align: center;
+                     -ms-flex-align: center;
+                         align-items: center;
+                         -webkit-box-orient: vertical;
+                         -webkit-box-direction: normal;
+                             -ms-flex-direction: column;
+                                 flex-direction: column;
+                 font-size: 1rem;
+                
+              }
+
+              .card_box_container .card_inner .card_front .card_title .invert{
+                -webkit-transform: rotateX(180deg);
+                transform: rotateX(180deg);
+                color: #121212;
+              }
+              
+              .card_box_container .card_inner .card_front .card_title .real{
+                color: #DFDFDF
+              }
+              
+
+}
+
+@media only screen 
+  and (max-device-width: 360px) {
+
+        .work_card_container{
+                height: 100%;
+                }
+                
+                .card_box_container{
+                 display: -webkit-box;
+                 display: -ms-flexbox;
+                 display: flex;
+                 -webkit-box-pack: center;
+                     -ms-flex-pack: center;
+                         justify-content: center;
+                 -webkit-box-align: center;
+                     -ms-flex-align: center;
+                         align-items: center;
+                 -webkit-box-orient: vertical;
+                 -webkit-box-direction: normal;
+                     -ms-flex-direction: column;
+                         flex-direction: column;
+                 position: relative;
+                 margin-top: calc(150px );
+                 margin-left: 140px;
+                }
+                
+                .card_box_container .card_inner{
+                        height: calc(185px + 48px + 24px );
+                        width: 185px;
+                        position: relative;
+                        margin-bottom: 48px;
+                        background-color: #f7f7f7;
+                }
+                .card_box_container .card_inner .card_front .card_img{
+                        height: 185px;
+                        width: 185px;
+                        display: block;
+                        top: 0;
+                        left: 0;
+                }
+                .card_box_container .card_inner .card_front .card_img img{
+                  width: 100%;
+                  height: 100%;
+                }
+                .card_box_container .card_inner .card_front .card_title{
+                   background-color: #f7f7f7;
+                   color: #DFDFDF;
+                   height: calc(48px + 24px);
+                   display: -webkit-box;
+                   display: -ms-flexbox;
+                   display: flex;
+                   -webkit-box-pack: center;
+                       -ms-flex-pack: center;
+                           justify-content: center;
+                   -webkit-box-align: center;
+                       -ms-flex-align: center;
+                           align-items: center;
+                           -webkit-box-orient: vertical;
+                           -webkit-box-direction: normal;
+                               -ms-flex-direction: column;
+                                   flex-direction: column;
+                   font-size: 1rem;
+                   
+                }
+                
+                
+              .card_box_container .card_inner .card_front .card_title .invert{
+                -webkit-transform: rotateX(180deg);
+                transform: rotateX(180deg);
+                color: #121212;
+              }
+             
+              .card_box_container .card_inner .card_front .card_title .real{
+                color: #DFDFDF;
+              }
+  }
+
+
+  
+@media only screen 
+and (max-device-width: 320px) {
+
+      .work_card_container{
+              height: 100%;
+              }
+              
+              .card_box_container{
+               display: -webkit-box;
+               display: -ms-flexbox;
+               display: flex;
+               -webkit-box-pack: center;
+                   -ms-flex-pack: center;
+                       justify-content: center;
+               -webkit-box-align: center;
+                   -ms-flex-align: center;
+                       align-items: center;
+               -webkit-box-orient: vertical;
+               -webkit-box-direction: normal;
+                   -ms-flex-direction: column;
+                       flex-direction: column;
+               position: relative;
+               margin-top: calc(150px );
+               margin-left: 130px;
+              }
+              
+              .card_box_container .card_inner{
+                      height: calc(150px + 48px + 24px );
+                      width: 150px;
+                      position: relative;
+                      margin-bottom: 48px;
+                      background-color: #f7f7f7;
+              }
+              .card_box_container .card_inner .card_front .card_img{
+                      height: 150px;
+                      width: 150px;
+                      display: block;
+                      top: 0;
+                      left: 0;
+              }
+              .card_box_container .card_inner .card_front .card_img img{
+                width: 100%;
+                height: 100%;
+              }
+              .card_box_container .card_inner .card_front .card_title{
+                 background-color: #f7f7f7;
+                 color: #121212;
+                 height: calc(48px + 24px);
+                 display: -webkit-box;
+                 display: -ms-flexbox;
+                 display: flex;
+                 -webkit-box-pack: center;
+                     -ms-flex-pack: center;
+                         justify-content: center;
+                 -webkit-box-align: center;
+                     -ms-flex-align: center;
+                         align-items: center;
+                 font-size: 1rem;
+                 -webkit-box-orient: vertical;
+                 -webkit-box-direction: normal;
+                     -ms-flex-direction: column;
+                         flex-direction: column;
+              }
+              
+
+              .card_box_container .card_inner .card_front .card_title .invert{
+                -webkit-transform: rotateX(180deg);
+                transform: rotateX(180deg);
+                color: #121212;
+              }
+              
+              
+              .card_box_container .card_inner .card_front .card_title .real{
+                color: #DFDFDF;
+              }
+
+}
