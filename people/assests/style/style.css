@@ -96,6 +96,9 @@
 .container .section{
     height: 100%;
     width: 100%;
+    outline-style: solid;
+    outline-width: 0.2rem;
+    
 }
 .container .section .section_zero{
     display: block;
@@ -166,7 +169,7 @@
     width: 100%;
     background-position: center;
     object-position: center;
-    object-fit:fill;
+    object-fit: cover;
 
 }
 
@@ -180,23 +183,24 @@
 .container .section .section_content .left_section {
   padding: 25px;
 }
-.container .section .section_content .left_section .portfolio_content .portfolio_heading h1{
+.container .section .section_content .left_section .portfolio_content .portfolio_heading h1 {
     font-size: 2rem;
    font-family: 'dream_orphansregular';
     font-weight: lighter;
     letter-spacing: 0.1rem;
     color: var(--green_color);
-    
-    
+    margin: 0 4%;
 }
-.container .section .section_content .left_section .portfolio_content .portfolio_category h1{
+.container .section .section_content .left_section .portfolio_content .portfolio_category h1 a {
     font-size: 0.85rem;
     margin: 3% 0;
     color: var(--green_color);
+    text-decoration: underline;
+    
 }
 .container .section .section_content .left_section .portfolio_content .portfolio_category p{
     font-size: 0.75rem;
-    margin: 2% 0;
+    margin: 1.5% 0;
 }
 
 
@@ -279,6 +283,12 @@
     grid-template-columns: 51% 49%;
     grid-gap: 10px;
 }
+.container .section .section_one.flip{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-gap: 0px;
+}
+
 
 .container .section .section_one .right_section{
     height: 100%;
@@ -501,7 +511,7 @@
 
 
 
-   /* ========= Gallery grid ===== */
+   /* ========= Gallery grid 4 and 5 ===== */
    .container .section .section_two.grid .left_section .left_section_container .gallery_container .galleryfour .gallery_img.hide{
     display: none;
 }
@@ -512,6 +522,21 @@
     align-items: center;
     position: relative;
    }
+
+
+   .container .section .section_two.grid .left_section .left_section_container .gallery_container .galleryfive .gallery_img.hide{
+    display: none;
+}
+
+.container .section .section_two.grid .left_section .left_section_container .gallery_container .galleryfive .gallery_img.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   }
+
+
+
    .container .section .section_two.grid .left_section .left_section_container .gallery_container .gallery .gallery_img.next .nextimages{
     position: absolute;
     font-size: 1.5rem;
@@ -626,6 +651,112 @@
     object-fit: cover;
 }
 
+/* ======= GALLERY FIVE ==== */
+
+.container .section .section_two .left_section .left_section_container .gallery_container .galleryfive .gallery_img {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    position: relative;
+}
+.container .section .section_two .left_section .left_section_container .gallery_container .galleryfive .gallery_img.hide{
+    display: none;
+}
+
+.container .section .section_two .left_section .left_section_container .gallery_container .galleryfive .gallery_img.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   }
+   .container .section .section_two .left_section .left_section_container .gallery_container .galleryfive .gallery_img.next .nextimages{
+    position: absolute;
+    font-size: 1.5rem;
+    font-family: 'dream_orphansregular';
+    color: #fff;
+   }
+
+
+.container .section .section_two .left_section .left_section_container .gallery_container .galleryfive .gallery_img img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+/* ======= GALLERY SIX ==== */
+
+.container .section .section_two .left_section .left_section_container .gallery_container .gallerysix .gallery_img {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    position: relative;
+}
+.container .section .section_two .left_section .left_section_container .gallery_container .gallerysix .gallery_img.hide{
+    display: none;
+}
+
+.container .section .section_two .left_section .left_section_container .gallery_container .gallerysix .gallery_img.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   }
+   .container .section .section_two .left_section .left_section_container .gallery_container .gallerysix .gallery_img.next .nextimages{
+    position: absolute;
+    font-size: 1.5rem;
+    font-family: 'dream_orphansregular';
+    color: #fff;
+   }
+
+
+.container .section .section_two .left_section .left_section_container .gallery_container .gallerysix .gallery_img img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+/* ======= GALLERY SEVEN ==== */
+
+.container .section .section_two .left_section .left_section_container .gallery_container .galleryseven .gallery_img {
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    position: relative;
+}
+.container .section .section_two .left_section .left_section_container .gallery_container .galleryseven .gallery_img.hide{
+    display: none;
+}
+
+.container .section .section_two .left_section .left_section_container .gallery_container .galleryseven .gallery_img.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   }
+   .container .section .section_two .left_section .left_section_container .gallery_container .galleryseven .gallery_img.next .nextimages{
+    position: absolute;
+    font-size: 1.5rem;
+    font-family: 'dream_orphansregular';
+    color: #fff;
+   }
+
+
+.container .section .section_two .left_section .left_section_container .gallery_container .galleryseven .gallery_img img{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+
+
+
+
 
 
 .container .section .section_two.three{
@@ -669,12 +800,29 @@
     object-fit: cover;
  }
 
+ .container .section .section_two .middle_section .middle_section_container .gallery_container .gallerytwo .gallery_img.hide{
+    display: none;
+}
+
+.container .section .section_two .middle_section .middle_section_container .gallery_container .gallerytwo .gallery_img.next{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   }
+   .container .section .section_two .middle_section .middle_section_container .gallery_container .gallerytwo .gallery_img.next .nextimages{
+    position: absolute;
+    font-size: 1.5rem;
+    font-family: 'dream_orphansregular';
+    color: #fff;
+   }
 
  /* ======= SECTION 4 ======= */
 
  .container .section .section_four{
      display: flex;
-     /* justify-content: space-around; */
+     justify-content: space-around;
+     flex-grow: 30px;
  }
 
 
@@ -686,9 +834,11 @@
      height: 100vh;
      display: flex;
      justify-content: space-between;
-     /* align-items: flex-end; */
+     /* width: 82%; */
+     align-items: flex-end;
      flex-direction: column;
      margin-right: 40px;
+     margin-left: -20px;
      
  }
  .container .section .section_four .right_section .right_section_container .landscape_image{
@@ -700,19 +850,21 @@
      height: 100%;
      background-position: center;
      object-position: center;
-     object-fit: cover;
+     object-fit: contain;
  }
 
  .container .section .section_four .left_section{
      width: 50%;
      display: flex;
      align-items: center;
-     justify-content: space-evenly;
+     justify-content: center;
+     /* background-color: red; */
  }
 
  .container .section .section_four .left_section .left_section_container .project_portrait_image{
      display: flex;
-     justify-content: stretch;
+     justify-content: center;
+     /* width: 100%; */
  }
 
  .container .section .section_four .left_section .left_section_container .project_portrait_image .portrait_image{
@@ -730,7 +882,7 @@
  }
 
  .container .section .section_four .left_section .left_section_container .project_details {
-     margin-top: -8%;
+     /* margin-top: -8%; */
      margin-left: 4%;
  }
  .container .section .section_four .left_section .left_section_container .project_details .project_category{
@@ -748,7 +900,7 @@
  }
  .container .section .section_four .left_section .left_section_container .project_details .project_desc{
      font-size: 1rem;
-     margin-bottom: 40px;
+     margin-bottom: 20px;
  }
 
 
@@ -764,7 +916,7 @@
  }
 
  .container .section .section_five .left_section{
-    width: 50%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -790,8 +942,8 @@
 }
 
 .container .section .section_five .left_section .left_section_container  {
-  margin-top: -10%;
-  margin-left: 5%;
+  /*  margin-top: -10%; */
+  margin-left: 8%; 
 }
 .container .section .section_five .left_section .left_section_container .project_details .project_category{
    font-size: 0.8rem;
@@ -808,7 +960,7 @@
 }
 .container .section .section_five .left_section .left_section_container .project_details .project_desc{
     font-size: 1rem;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .container .section .section_five .right_section {
@@ -833,7 +985,7 @@
     height: 100%;
     background-position: center;
     object-position: center;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .container .section .section_two.land .right_section {
@@ -858,7 +1010,7 @@
     height: 100%;
     background-position: center;
     object-position: center;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 
@@ -876,13 +1028,13 @@
     
 
 }
-.container .section .contact_container h1{
+
+.container .section .contact_container h1 .link{
+    color: var(--green_color);
     font-family: 'dream_orphansregular';
     font-weight: lighter;
     font-size: 2rem;
-    color: var(--green_color);
     letter-spacing: 0.2rem;
-
 }
 .container .section .contact_container h2{
     font-family: 'dream_orphansregular';
@@ -935,7 +1087,7 @@
 .container .section .contact_container .website{
     font-size: 2rem;
     font-family: 'dream_orphansregular';
-    letter-spacing: 0.1rem;
+    letter-spacing: 0.2rem;
     color: var(--green_color);
 }
 
